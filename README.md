@@ -11,16 +11,18 @@ The application gets your current latitude and month and based on this informati
 * [Creator](#creator)
 
 ## Contents
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [Docker](http://www.docker.com). 
 
 ## Attribution
 [Modern React with Redux 2019 Update](https://www.udemy.com/react-redux/) by Stephen Grider
 
 ## Instructions
 
+Install docker if you don't already have it.<br>
 Git clone the repository.<br>
-Change directory to where the project was saved
-### `npm start`
+Change directory to where the project was saved.<br><br>
+`docker pull onthebutton72/identifyseason`<br><br>
+`docker run -it -v ${PWD}:/usr/src/app -v /sur/src/app/node_modules -p 3000:3000 onthebutton72/identifyseason`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
