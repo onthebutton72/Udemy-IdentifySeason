@@ -19,9 +19,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Instructions
 
 Install docker if you don't already have it.<br>
-Git clone the repository.<br>
-Change directory to where the project was saved.<br><br>
+Clone the respository.<br>
+`git clone https://github.com/onthebutton72/Udemy-IdentifySeason.git`.<br><br>
+Change directory to where the project was saved.<br>
+Pull down the docker container.<br>
 `docker pull onthebutton72/identifyseason`<br><br>
+Run the docker container.<br>
 `docker run -it -v ${PWD}:/usr/src/app -v /sur/src/app/node_modules -p 3000:3000 onthebutton72/identifyseason`
 
 Runs the app in the development mode.<br>
