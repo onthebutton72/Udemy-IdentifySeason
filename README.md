@@ -17,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 [Modern React with Redux 2019 Update](https://www.udemy.com/react-redux/) by Stephen Grider
 
 ## Instructions
-
+### With Docker
 Install docker if you don't already have it.<br><br>
 Clone the respository.<br>
 `git clone https://github.com/onthebutton72/Udemy-IdentifySeason.git`.<br><br>
@@ -26,7 +26,8 @@ Pull down the docker container.<br>
 `docker pull onthebutton72/identifyseason`<br><br>
 Run the docker container.<br>
 `docker run -it -v ${PWD}:/usr/src/app -v /sur/src/app/node_modules -p 3000:3000 onthebutton72/identifyseason`<br><br>
-If you do not wish to use docker then do as follows:<br>
+### Without Docker
+If you do not wish to use docker then do as follows:<br><br>
 Clone the repository.<br>
 Change directory to where the project was saved.<br>
 `npm install`<br>
