@@ -17,7 +17,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 [Modern React with Redux 2019 Update](https://www.udemy.com/react-redux/) by Stephen Grider
 
 ## Instructions
-### View the Live Demo [here](https://zombiepotatogun.hostingerapp.com/identifyseason/)<br>
 ### With Docker
 Install docker if you don't already have it.<br><br>
 Clone the respository.<br>
